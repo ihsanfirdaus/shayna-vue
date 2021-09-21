@@ -207,7 +207,7 @@ export default {
       };
 
       axios
-        .post("http://ihsanfirdaus.my.id/api/checkout", checkoutData)
+        .post("https://ihsanfirdaus.my.id/api/checkout", checkoutData)
         .then(() => this.$router.push("success"))
         .catch((err) => console.log(err));
     },

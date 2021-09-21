@@ -119,7 +119,7 @@ export default {
       }
     }
     axios
-      .get("http://ihsanfirdaus.my.id/api/products", {
+      .get("https://ihsanfirdaus.my.id/api/products", {
         params: {
           id: this.$route.params.id,
         },
