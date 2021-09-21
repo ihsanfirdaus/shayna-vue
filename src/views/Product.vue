@@ -119,7 +119,7 @@ export default {
       }
     }
     axios
-      .get("https://ihsanfirdaus.my.id/api/products", {
+      .get("https://ihsanfirdaus.my.id/shayna-backend/api/products", {
         params: {
           id: this.$route.params.id,
         },
